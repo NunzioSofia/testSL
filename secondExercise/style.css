@@ -3,12 +3,49 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
-
 }
-.mainElement{
-   
+
+.mainElement {
     width: 200px;
     height: 200px;
     background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.containerLittleSquares {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.littleSquare1, .littleSquare2, .littleSquare3, .littleSquare4 {
+    width: 10px;
+    height: 10px;
+    display: none;
+}
+
+.littleSquare1 {
+    border-top: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+}
+
+.littleSquare2 {
+    border-top: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+}
+
+.littleSquare3 {
+    border-bottom: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+}
+
+.littleSquare4 {
+    border-bottom: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+}
+
+.mainElement:hover .littleSquare1, .mainElement:hover .littleSquare2, .mainElement:hover .littleSquare3, .mainElement:hover .littleSquare4 {
+    display: block;
 }
