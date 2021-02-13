@@ -1,0 +1,14 @@
+.mainContainer {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.mainElement{
+   
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
