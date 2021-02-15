@@ -8,4 +8,4 @@
  Tra il lavoro e il fine settimana, questo è quello che sono riuscito a completare.
  Have a nice day!
 
- ps: credo che per visualizzare il quarto esercizi basti runnare "npm install" e poi "ng serve --open" (occorrono Node e Angular installati sul computer).
+ ps: credo che per visualizzare il quarto esercizio basti runnare "npm install" e poi "ng serve --open" (occorrono Node e Angular installati sul computer).
